@@ -31,20 +31,21 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.date_ListBox = new System.Windows.Forms.ListBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.exit_Button = new System.Windows.Forms.Button();
             this.opening_Label = new System.Windows.Forms.Label();
-            this.closing_Label = new System.Windows.Forms.Label();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.high_Label = new System.Windows.Forms.Label();
-            this.low_Label = new System.Windows.Forms.Label();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.date_Label = new System.Windows.Forms.Label();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.closing_Label = new System.Windows.Forms.Label();
+            this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.low_Label = new System.Windows.Forms.Label();
+            this.exit_Button = new System.Windows.Forms.Button();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
-            this.value_TextBox = new System.Windows.Forms.TextBox();
-            this.cloestDate_Button = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.allDates_Button = new System.Windows.Forms.Button();
+            this.cloestDate_Button = new System.Windows.Forms.Button();
+            this.value_TextBox = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -85,6 +86,16 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Opening Value";
             // 
+            // opening_Label
+            // 
+            this.opening_Label.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.opening_Label.Location = new System.Drawing.Point(6, 19);
+            this.opening_Label.Name = "opening_Label";
+            this.opening_Label.Size = new System.Drawing.Size(188, 37);
+            this.opening_Label.TabIndex = 0;
+            this.opening_Label.Text = "label1";
+            this.opening_Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.high_Label);
@@ -94,6 +105,16 @@
             this.groupBox3.TabIndex = 2;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Highest Value";
+            // 
+            // high_Label
+            // 
+            this.high_Label.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.high_Label.Location = new System.Drawing.Point(6, 19);
+            this.high_Label.Name = "high_Label";
+            this.high_Label.Size = new System.Drawing.Size(188, 37);
+            this.high_Label.TabIndex = 1;
+            this.high_Label.Text = "label3";
+            this.high_Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // groupBox4
             // 
@@ -105,6 +126,16 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Date";
             // 
+            // date_Label
+            // 
+            this.date_Label.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.date_Label.Location = new System.Drawing.Point(8, 17);
+            this.date_Label.Name = "date_Label";
+            this.date_Label.Size = new System.Drawing.Size(391, 37);
+            this.date_Label.TabIndex = 1;
+            this.date_Label.Text = "label5";
+            this.date_Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // groupBox5
             // 
             this.groupBox5.Controls.Add(this.closing_Label);
@@ -115,6 +146,16 @@
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Closing Value";
             // 
+            // closing_Label
+            // 
+            this.closing_Label.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.closing_Label.Location = new System.Drawing.Point(6, 19);
+            this.closing_Label.Name = "closing_Label";
+            this.closing_Label.Size = new System.Drawing.Size(188, 37);
+            this.closing_Label.TabIndex = 1;
+            this.closing_Label.Text = "label2";
+            this.closing_Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // groupBox6
             // 
             this.groupBox6.Controls.Add(this.low_Label);
@@ -124,6 +165,16 @@
             this.groupBox6.TabIndex = 2;
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "Lowest Value";
+            // 
+            // low_Label
+            // 
+            this.low_Label.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.low_Label.Location = new System.Drawing.Point(6, 19);
+            this.low_Label.Name = "low_Label";
+            this.low_Label.Size = new System.Drawing.Size(188, 37);
+            this.low_Label.TabIndex = 1;
+            this.low_Label.Text = "label4";
+            this.low_Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // exit_Button
             // 
@@ -137,58 +188,9 @@
             this.exit_Button.UseVisualStyleBackColor = false;
             this.exit_Button.Click += new System.EventHandler(this.exit_Button_Click);
             // 
-            // opening_Label
-            // 
-            this.opening_Label.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.opening_Label.Location = new System.Drawing.Point(6, 19);
-            this.opening_Label.Name = "opening_Label";
-            this.opening_Label.Size = new System.Drawing.Size(188, 37);
-            this.opening_Label.TabIndex = 0;
-            this.opening_Label.Text = "label1";
-            this.opening_Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // closing_Label
-            // 
-            this.closing_Label.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.closing_Label.Location = new System.Drawing.Point(6, 19);
-            this.closing_Label.Name = "closing_Label";
-            this.closing_Label.Size = new System.Drawing.Size(188, 37);
-            this.closing_Label.TabIndex = 1;
-            this.closing_Label.Text = "label2";
-            this.closing_Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // high_Label
-            // 
-            this.high_Label.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.high_Label.Location = new System.Drawing.Point(6, 19);
-            this.high_Label.Name = "high_Label";
-            this.high_Label.Size = new System.Drawing.Size(188, 37);
-            this.high_Label.TabIndex = 1;
-            this.high_Label.Text = "label3";
-            this.high_Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // low_Label
-            // 
-            this.low_Label.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.low_Label.Location = new System.Drawing.Point(6, 19);
-            this.low_Label.Name = "low_Label";
-            this.low_Label.Size = new System.Drawing.Size(188, 37);
-            this.low_Label.TabIndex = 1;
-            this.low_Label.Text = "label4";
-            this.low_Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // date_Label
-            // 
-            this.date_Label.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.date_Label.Location = new System.Drawing.Point(8, 17);
-            this.date_Label.Name = "date_Label";
-            this.date_Label.Size = new System.Drawing.Size(391, 37);
-            this.date_Label.TabIndex = 1;
-            this.date_Label.Text = "label5";
-            this.date_Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // groupBox7
             // 
+            this.groupBox7.Controls.Add(this.button1);
             this.groupBox7.Controls.Add(this.allDates_Button);
             this.groupBox7.Controls.Add(this.cloestDate_Button);
             this.groupBox7.Controls.Add(this.value_TextBox);
@@ -199,34 +201,48 @@
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "Search Closing Value Dates";
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Gold;
+            this.button1.ForeColor = System.Drawing.Color.MediumBlue;
+            this.button1.Location = new System.Drawing.Point(379, 45);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(126, 23);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "Reset";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // allDates_Button
+            // 
+            this.allDates_Button.BackColor = System.Drawing.Color.RoyalBlue;
+            this.allDates_Button.ForeColor = System.Drawing.Color.AliceBlue;
+            this.allDates_Button.Location = new System.Drawing.Point(247, 45);
+            this.allDates_Button.Name = "allDates_Button";
+            this.allDates_Button.Size = new System.Drawing.Size(126, 23);
+            this.allDates_Button.TabIndex = 2;
+            this.allDates_Button.Text = "All Dates";
+            this.allDates_Button.UseVisualStyleBackColor = false;
+            this.allDates_Button.Click += new System.EventHandler(this.allDates_Button_Click);
+            // 
+            // cloestDate_Button
+            // 
+            this.cloestDate_Button.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.cloestDate_Button.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.cloestDate_Button.Location = new System.Drawing.Point(115, 45);
+            this.cloestDate_Button.Name = "cloestDate_Button";
+            this.cloestDate_Button.Size = new System.Drawing.Size(126, 23);
+            this.cloestDate_Button.TabIndex = 1;
+            this.cloestDate_Button.Text = "First Closest Date";
+            this.cloestDate_Button.UseVisualStyleBackColor = false;
+            this.cloestDate_Button.Click += new System.EventHandler(this.cloestDate_Button_Click);
+            // 
             // value_TextBox
             // 
             this.value_TextBox.Location = new System.Drawing.Point(6, 19);
             this.value_TextBox.Name = "value_TextBox";
             this.value_TextBox.Size = new System.Drawing.Size(609, 20);
             this.value_TextBox.TabIndex = 0;
-            // 
-            // cloestDate_Button
-            // 
-            this.cloestDate_Button.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.cloestDate_Button.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.cloestDate_Button.Location = new System.Drawing.Point(171, 45);
-            this.cloestDate_Button.Name = "cloestDate_Button";
-            this.cloestDate_Button.Size = new System.Drawing.Size(126, 23);
-            this.cloestDate_Button.TabIndex = 1;
-            this.cloestDate_Button.Text = "First Closest Date";
-            this.cloestDate_Button.UseVisualStyleBackColor = false;
-            // 
-            // allDates_Button
-            // 
-            this.allDates_Button.BackColor = System.Drawing.Color.RoyalBlue;
-            this.allDates_Button.ForeColor = System.Drawing.Color.AliceBlue;
-            this.allDates_Button.Location = new System.Drawing.Point(303, 45);
-            this.allDates_Button.Name = "allDates_Button";
-            this.allDates_Button.Size = new System.Drawing.Size(126, 23);
-            this.allDates_Button.TabIndex = 2;
-            this.allDates_Button.Text = "All Dates";
-            this.allDates_Button.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
@@ -275,6 +291,7 @@
         private System.Windows.Forms.Button allDates_Button;
         private System.Windows.Forms.Button cloestDate_Button;
         private System.Windows.Forms.TextBox value_TextBox;
+        private System.Windows.Forms.Button button1;
     }
 }
 
